@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+}
+.hero-text{
+    width: 40%;
+    position: relative;
+    top: 150px;
+}
+.hero-img{
+    width: 50%;
+    margin-left: 10%;
+}
+.hero-img img{
+    width: 80%;
+}
+
+.title-text h1{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    /* border-image: linear-gradient(#FFAD5A, #FF5959);
+    border-left: 5px solid;
+    border-image-slice: 1;
+     */
+     padding-left: 15px;
+    position: relative;
+}
+.title-text h1::before{
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 5px;
+    height: 85%;
+    background-image: linear-gradient(#FFAD5A, #FF5959);
+}
+.title-text span{
+    color: #FFAD5A;
+}
+.hero-text p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 28px;
+}
+.btn{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 20px;
+    background: #FF5959;
+    border-radius: 5px; 
+}
+.hero-text p{
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+}
+
+.img-shape4{
+    position: relative;
+    top: 100px;
+}
+#mission{
+    padding: 50px 0;
+    background: url(../images/Group\ 4.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: bottom;
+    background-size: 80px;
+
+}
+.section-header h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.section-header span{
+    color: #FFAD5A;
+}
+.cart-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.cart{
+    width: 32%;
+    background: #E5E5E5;
+    padding: 25px;
+    border-radius: 10px;
+}
+.cart img{
+    width: 120px;
+}
+.cart h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.cart p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.cart-color-2{
+    background: #ff595938;
+}
+.cart-color-3{
+    background: #FFF4D6;
+}
+#develop{
+    padding: 50px 0;
+}
+.devalop-img{
+    width: 40%;
+    position: relative;
+    z-index: 10;
+}
+.image-shape{
+    position: absolute;
+    top: 70px;
+    left: -70px;
+    width: 200px;
+    z-index: -1;
+}
+.image-shape img{
+    width: 100%;
+}
+.devalop-img img{
+    width: 100%;
+}
+.devalop-text{
+    width: 55%;
+    margin-left: 5%;
+}
+.image-shape2{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    bottom: 100px;
+    left: -100px;
+}
+.image-shape2 img{
+    width: 100%;
+    height: 100%;
+}
+.devalop-text {
+    position: relative;
+    top: 50px;
+}
+.devalop-text h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 15px;
+}
+.devalop-text p{
+    font-size: 17px;
+    color: #3E3E3E;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.Global-text{
+    width: 50%;
+}
+.Global-img{
+    width: 35%;
+    margin-left: 5%;
+    position: relative;
+    z-index: 10;
+}
+.Global-img img{
+    width: 100%;
+    
+}
+.Global-img-shape{
+    position: absolute;
+    width: 200px;
+    right: -100px;
+    bottom: -80px;
+    z-index: -8;
+}
+.Global-img-shape img{
+    width: 100%;
+}
+#build-app{
+    padding: 100px 0;
+}
+.build-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.corona-img-item{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.corona-left{
+    width: 80%;
+    position: relative;
+}
+.corona-img-wrapper{
+    width: fit-content;
+    height: fit-content;
+    z-index: 3;
+}
+.corona-left-img{
+    width: 100%;
+    z-index: 2;
+}
+.corona-left-img > img{
+    width: 100%;
+}
+.corona-img-1{
+    position: absolute;
+    width: 200px;
+    top: -10%;
+    left: -10%;
+    z-index: -1;
+}
+.corona-img-1 > img{
+    width: 100%;
+}
+.corona-img-2{
+    position: absolute;
+    width: 100px;
+    bottom: 3%;
+    left: -2%;
+    z-index: -1;
+}
+.corona-img-2 > img{
+    width: 100%;
+}
+.corona-img-3{
+    position: absolute;
+    width: 100px;
+    top: 50%;
+    right: -10%;
+    z-index: -1;
+}
+.corona-img-3 > img{
+    width: 100%;
+}
+.corona-text{
+    position: relative;
+    top: 100px;
+    width: 50%;
+}
+.corona-text h2{
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.corona-text h2 span{
+    color: #FFAD5A;
+}
+.corona-text p{
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
